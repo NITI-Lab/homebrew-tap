@@ -3,26 +3,26 @@
 class AjiroApi < Formula
   desc "API definitions, regression tests and mocks for AI coding agents"
   homepage "https://github.com/niti-lab/ajiro-api"
-  version "0.1.6"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/niti-lab/ajiro-api/releases/download/v0.1.6/ajiro-api-0.1.6-aarch64-apple-darwin.tar.gz"
-      sha256 "f1cc77c9a56eabd78e836c372eb4eae8d7394f4e46f3c14640b9a8811edd9345"
+      url "https://github.com/niti-lab/ajiro-api/releases/download/v0.2.0/ajiro-api-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "733a592fd006b144e3551efd2051c78a070e3255cfd66b635cbf6137c5b59767"
     else
-      url "https://github.com/niti-lab/ajiro-api/releases/download/v0.1.6/ajiro-api-0.1.6-x86_64-apple-darwin.tar.gz"
-      sha256 "589ee723461ff592f3659ebf8f509b4d94a890e2637830c80a94d22027ec3e8f"
+      url "https://github.com/niti-lab/ajiro-api/releases/download/v0.2.0/ajiro-api-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "126f92ce399db43ee9aa8a0a60e1c94fb7dbddbdbdc2806c4fa9f392f1e45ea8"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/niti-lab/ajiro-api/releases/download/v0.1.6/ajiro-api-0.1.6-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "85ce10b0d48d76fdc7f6422ff3ee22d6196a9cd5274a55962e5fdf97df36f1a7"
+      url "https://github.com/niti-lab/ajiro-api/releases/download/v0.2.0/ajiro-api-0.2.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "765c110d91a112981667a0366a5c22d55248e3c7e20d7323c4978044e282a3cb"
     else
-      url "https://github.com/niti-lab/ajiro-api/releases/download/v0.1.6/ajiro-api-0.1.6-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "fed91876d18aff5a40048f2e1df4ba5aa0b3a39bec78d659836087c86015adfd"
+      url "https://github.com/niti-lab/ajiro-api/releases/download/v0.2.0/ajiro-api-0.2.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "bdc7c4cc8835dc58069be20e4bac4975a3c5c9021db53cfb9e61f75d54576892"
     end
   end
 
